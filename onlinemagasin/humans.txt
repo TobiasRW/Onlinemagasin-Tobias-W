@@ -1,0 +1,25 @@
+# humanstxt.org
+
+# TEAM
+
+Tobias Rønne Wolmar
+
+---
+
+# THANKS
+
+Thanks to Font Awesome (fontawesome.com) for providing icon for this website.
+Thanks to Unsplash (unsplash.com) for providing some of the pictures for this website.
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+Visual Studio Code
+FileZilla
+
+## Hosting
+
+simply.com

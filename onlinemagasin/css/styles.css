@@ -1,0 +1,1170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #2B2D42;
+    background-color: #EDF2F4;
+}
+
+
+/* Navbar */
+li, a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #D90429;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    width: 100px;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a:hover{
+    color: #2B2D42;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EDF2F4;
+    border: solid #D90429 1px;
+    border-radius: 30px;
+}
+
+.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #EDF2F4;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.box:hover input{
+    width: 250px;
+}
+
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.box a .fas{
+    color: #2B2D42;
+    font-size: 16px;
+}
+
+/* Dropdown */
+
+.navbar ul li{
+    position: relative;
+}
+
+.dropdown{
+    position: absolute;
+    justify-content: center;
+}
+
+.dropdown li{
+    display: none;
+    background-color: #EDF2F4;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+.dropdown li:hover{
+    color: #2B2D42;
+}
+
+.navbar li:hover > .dropdown li{
+    display: block;
+}
+
+/* Hero */
+.hero{
+    display: block;
+    padding-bottom: 32px;
+    margin: 0 auto;
+}
+
+.hero > .banner-pic{
+    width: 100%;
+    display: block;
+    padding: 0 10%;
+}
+
+/* Nyhedsbrev */
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.subscribe-title{
+    font-size: 26px;
+    margin-bottom: 16px;
+    color: #2B2D42;
+    font-weight: 500;
+}
+
+.subscribe-text{
+    margin-bottom: 25px;
+    color: #8D99AE;
+}
+
+.subscribe-form{
+    margin-bottom: 25px;
+}
+
+.form-email{
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: 1px solid #EF233C;
+    width: 431px;
+    font-size: 16px;
+}
+
+.form-email:focus{
+    outline: 1px solid #D90429;
+}
+
+.form-button{
+    background: #EF233C;
+    border: none;
+    width: 140px;
+    height: 63px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+}
+
+.form-button:hover{
+    transform: scale(1.025, 1.025);
+    transition: transform 0.1s ease-in;
+    cursor: pointer;
+}
+
+.notice{
+    accent-color: #EF233C;
+}
+
+
+.agree{
+    color: #8D99AE;
+}
+
+/* Populære Artikler */
+
+.article-title{
+    text-align: center;
+    padding-top: 64px;
+    font-size: 26px;
+    padding-bottom: 16px;
+    color: #2B2D42;
+    font-weight: 500;
+}
+
+.underline{
+    display: block;
+    margin: 0 auto;
+    background-color: #EF233C;
+    width: 25%;
+    height: 2px;
+}
+
+.article-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.article-pic{
+    width: 300px;
+}
+
+.article-1-container{
+    position: relative;
+}
+
+.article-1-container h3{
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgb(239, 35, 60);
+    background: rgba(239, 35, 60, 0.6);
+}
+
+.article-1-container h3 a{
+    text-decoration: none;
+    color: white;
+    background: none;
+    }
+
+.article-2-container{
+    position: relative;
+}
+
+.article-2-container h3{
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgb(239, 35, 60);
+    background: rgba(239, 35, 60, 0.6);
+}
+
+.article-2-container h3 a{
+    text-decoration: none;
+    color: white;
+    background: none;
+    }
+
+
+.article-3-container{
+    position: relative;
+}
+
+.article-3-container h3{
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgb(239, 35, 60);
+    background: rgba(239, 35, 60, 0.6);
+}
+
+.article-3-container h3 a{
+text-decoration: none;
+color: white;
+background: none;
+}
+
+/* Læs Også Artikler */
+
+.read-more-title{
+    text-align: center;
+    padding-top: 64px;
+    font-size: 26px;
+    padding-bottom: 16px;
+    color: #2B2D42;
+    font-weight: 500;
+}
+
+.read-more-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.read-more-pic{
+    width: 300px;
+}
+
+.read-more-1-container{
+    position: relative;
+}
+
+.read-more-1-container h3{
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgb(239, 35, 60);
+    background: rgba(239, 35, 60, 0.6);
+}
+
+.read-more-1-container  h3 a{
+    text-decoration: none;
+    color: white;
+    background: none;
+}
+
+.read-more-2-container{
+    position: relative;
+}
+
+.read-more-2-container h3{
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgb(239, 35, 60);
+    background: rgba(239, 35, 60, 0.6);
+}
+
+.read-more-2-container  h3 a{
+    text-decoration: none;
+    color: white;
+    background: none;
+}
+
+.read-more-3-container{
+    position: relative;
+}
+
+.read-more-3-container h3{
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgb(239, 35, 60);
+    background: rgba(239, 35, 60, 0.6);
+}
+
+.read-more-3-container  h3 a{
+    text-decoration: none;
+    color: white;
+    background: none;
+}
+
+
+/* Seachbar */
+
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    padding-bottom: 16px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.welcome{
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #2B2D42;
+    font-weight: 500;
+    margin-top: 75px;
+}
+
+.underline-welcome{
+    display: block;
+    margin: 0 auto;
+    background-color: #EF233C;
+    width: 25%;
+    height: 2px;
+    margin-bottom: 45px;
+}
+
+.search-title{
+    text-align: center;
+    padding-top: 32px;
+    font-size: 26px;
+    padding-bottom: 16px;
+    color: #2B2D42;
+    font-weight: 500;
+}
+
+
+
+.form-search{
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: 1px solid #EF233C;
+    width: 431px;
+    font-size: 16px;
+}
+
+.form-search:focus{
+    outline: 1px solid #D90429;
+}
+
+.search-button{
+    background: #EF233C;
+    border: none;
+    width: 140px;
+    height: 63px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+}
+
+.search-button:hover{
+    transform: scale(1.025, 1.025);
+    transition: transform 0.1s ease-in;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.footer-logo{
+    cursor: pointer;
+    width: 100px;
+}
+
+i{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #EF233C;
+}
+
+.so-me-title{
+    font-weight: 500;
+    color: #2B2D42;
+}
+
+.contact p{
+    color: #EF233C;
+}
+
+.contact-title{
+    font-weight: 500;
+    color: #2B2D42;
+}
+
+.footer-logo-container{
+    width: 200px;
+}
+
+.so-me{
+    width: 200px;
+}
+
+.contact{
+    width: 200px;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 1440px){
+    body{
+        margin: 0 auto;
+        width: 1440px;
+    }
+}
+
+@media screen and (max-width:1200px){
+
+    .box{
+        padding: 5px 15px;
+    }
+
+    .box:hover input{
+        width: 150px;
+    }
+
+    .nav-links li{
+        padding: 0 15px;
+    }
+
+    .article-pic{
+        width: 250px;
+    }
+    
+    .read-more-pic{
+        width: 250px;
+    }
+
+    .welcome{
+        font-size: 25px;
+        margin-top: 65px;
+    }
+
+    .subscribe-title{
+        font-size: 25px;
+    }
+
+    .search-title{
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .underline-welcome{
+        margin-bottom: 30px;
+    }
+
+    .form-search{
+        width: 400px;
+        height: 55px;
+    }
+
+    .form-email{
+        width: 400px;
+        height: 55px;
+    }
+
+    .form-button{
+        width: 120px;
+        height: 55px;
+    }
+
+    .subscribe-text{
+        font-size: 14px;
+    }
+
+    .notice{
+        font-size: 14px;
+    }
+
+    .search-button{
+        width: 120px;
+        height: 55px;
+    }
+
+    .article-title{
+        font-size: 25px;
+    }
+
+    .read-more-title{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:1000px){
+
+    .box{
+        padding: 2px 10px;
+    }
+
+    .box:hover input{
+        width: 100px;
+    }
+
+    .logo{
+        width: 90px;
+    }
+
+    .nav-links li{
+        padding: 0 5px;
+    }
+    .nav-links li a{
+        font-size: 14px;
+    }
+
+    .article-pic{
+        width: 200px;
+    }
+
+    .read-more-pic{
+        width: 200px;
+    }
+
+    .article-title{
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .read-more-title{
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .underline-welcome{
+        margin-bottom: 20px;
+    }
+
+    .welcome{
+        font-size: 20px;
+        margin-top: 45px;
+    }
+    
+    .subscribe-title{
+        font-size: 20px;
+    }
+
+    .search-title{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .form-search{
+        width: 300px;
+        height: 45px;
+    }
+
+    .search-button{
+        width: 90px;
+        height: 45px;
+    }
+
+    .form-email{
+        width: 300px;
+        height: 45px;
+    }
+
+    .form-button{
+        width: 90px;
+        height: 45px;
+    }
+
+    .subscribe-text{
+        font-size: 12px;
+    }
+
+    .notice{
+        font-size: 12px;
+    }
+
+    .checkbox{
+        width: 11px;
+    }
+
+    .subscribe{
+        padding: 35px 0;
+    }
+
+    .footer-logo{
+        width: 90px;
+    }
+
+    .so-me-title{
+        font-size: 14px;
+    }
+
+    .fa-brands{
+        font-size: 20px;
+    }
+
+    .contact-title{
+        font-size: 14px;
+    }
+
+    .contact p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:770px){
+    .search-icon{
+        display: none;
+    }
+
+    .dropdown li:focus{
+        color: #2B2D42;
+    }
+    
+    .navbar li:focus > .dropdown li{
+        display: block;
+    }
+
+    .logo{
+        width: 60px;
+    }
+
+    .nav-links li{
+        padding: 0 3px;
+    }
+    .nav-links li a{
+        font-size: 14px;
+    }
+
+    .article-pic{
+        width: 150px;
+    }
+
+    .read-more-pic{
+        width: 150px;
+    }
+    
+    .article-1-container h3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .article-2-container h3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .article-3-container h3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .read-more-1-container h3{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .read-more-2-container h3{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .read-more-3-container h3{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .underline-welcome{
+        margin-bottom: 15px;
+    }
+
+    .welcome{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .subscribe-title{
+        font-size: 16px;
+    }
+
+    .search-title{
+        font-size: 13px;
+        padding-top: 8px;
+    }
+
+    .form-search{
+        width: 250px;
+        height: 35px;
+        padding: 10px;
+    }
+
+    .search-button{
+        width: 70px;
+        height: 35px;
+    }
+
+    .form-email{
+        width: 250px;
+        height: 35px;
+        padding: 10px;
+    }
+
+    .form-button{
+        width: 70px;
+        height: 35px;
+    }
+
+    .subscribe-text{
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    .subscribe-form{
+        margin-bottom: 15px;
+    }
+
+    .notice{
+        font-size: 10px;
+    }
+
+    .article-title{
+        font-size: 16px;
+        padding-top: 35px;
+    }
+
+    .read-more-title{
+        font-size: 16px;
+        padding-top: 35px;
+    }
+
+    .checkbox{
+        width: 10px;
+    }
+
+    .subscribe{
+        padding: 25px 0;
+    }
+
+    .footer-logo{
+        width: 60px;
+    }
+
+    .so-me-title{
+        font-size: 12px;
+    }
+
+    .fa-brands{
+        font-size: 15px;
+    }
+
+    .contact-title{
+        font-size: 12px;
+    }
+
+    .contact p{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:575px){
+
+    .logo{
+        width: 40px;
+    }
+
+    .nav-links li a{
+        font-size: 10px;
+    }
+
+    .article-pic{
+        width: 100px;
+    }
+
+    .article-title{
+        font-size: 13px;
+        padding-top: 10px;
+    }
+
+    .read-more-title{
+        font-size: 13px;
+        padding-top: 10px;
+    }
+
+    .read-more-pic{
+        width: 100px;
+    }
+
+    .article-1-container h3 a{
+        font-size: 10px;
+    }
+
+    .article-2-container h3 a{
+        font-size: 10px;
+    }
+
+    .article-3-container h3 a{
+        font-size: 10px;
+    }
+
+    .read-more-1-container h3 a{
+        font-size: 10px;
+    }
+
+    .read-more-2-container h3 a{
+        font-size: 10px;
+    }
+
+    .read-more-3-container h3 a{
+        font-size: 10px;
+    }
+
+    .underline-welcome{
+        margin-bottom: 10px;
+    }
+
+    .hero{
+        padding-bottom: 16px;
+    }
+
+    .welcome{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .subscribe-title{
+        font-size: 13px;
+    }
+
+    .search-title{
+        font-size: 10px;
+        padding-top: 4px;
+    }
+
+    .form-search{
+        width: 150px;
+        height: 25px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .subscribe-text{
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+
+    .subscribe-form{
+        margin-bottom: 10px;
+    }
+
+    .notice{
+        font-size: 8px;
+    }
+
+    .search-button{
+        width: 50px;
+        height: 25px;
+       font-size: 10px;
+    }
+
+    .form-email{
+        width: 150px;
+        height: 25px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .form-button{
+        width: 50px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .checkbox{
+        width: 9px;
+    }
+
+    .subscribe{
+        padding: 5px 0;
+    }
+
+    .footer-logo{
+        width: 40px;
+    }
+
+    .so-me-title{
+        font-size: 10px;
+    }
+
+    .fa-brands{
+        font-size: 10px;
+    }
+
+    .contact-title{
+        font-size: 10px;
+    }
+
+    .contact p{
+        font-size: 7px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+
+    .logo{
+        width: 30px;
+    }
+
+    .nav-links li a{
+        font-size: 8px;
+    }
+
+    .article-pic{
+        width: 75px;
+    }
+
+    .read-more-pic{
+        width: 75px;
+    }
+    
+    .article-1-container h3{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .article-1-container h3 a{
+        font-size: 6px;
+    }
+
+    .article-2-container h3{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .article-2-container h3 a{
+        font-size: 6px;
+    }
+
+    .article-3-container h3{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+     .article-3-container h3 a{
+        font-size: 6px;
+    }
+
+    .read-more-1-container h3{
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .read-more-1-container h3 a{
+        font-size: 6px;
+    }
+
+    .read-more-2-container h3{
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .read-more-2-container h3 a{
+        font-size: 6px;
+    }
+
+    .read-more-3-container h3{
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .read-more-3-container h3 a{
+        font-size: 6px;
+    }
+
+    .underline-welcome{
+        margin-bottom: 8px;
+    }
+
+    .hero{
+        padding-bottom: 8px;
+    }
+
+    .welcome{
+        font-size: 11px;
+        margin: 7px 0;
+    }
+
+    .subscribe-title{
+        font-size: 11px;
+        margin: 7px 0;
+    }
+
+    .search-title{
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    .form-search{
+        width: 100px;
+        height: 15px;
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .search-button{
+        width: 30px;
+        height: 15px;
+        font-size: 8px;
+    }
+
+    .form-email{
+        width: 100px;
+        height: 15px;
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .form-button{
+        width: 30px;
+        height: 15px;
+        font-size: 6px;
+    }
+
+    .subscribe-text{
+        font-size: 6px;
+        margin-bottom: 0px;
+    }
+
+    .subscribe-form{
+        margin-bottom: 0px;
+    }
+
+    .notice{
+        font-size: 6px;
+    }
+
+    .article-title{
+        font-size: 11px;
+        padding-top: 0px;
+    }
+
+    .read-more-title{
+        font-size: 11px;
+        padding-top: 0px;
+    }
+
+    .checkbox{
+        width: 7px;
+    }
+
+    .footer-logo{
+        width: 30px;
+    }
+
+    .so-me-title{
+        font-size: 8px;
+    }
+
+    .fa-brands{
+        font-size: 8px;
+    }
+
+    .contact-title{
+        font-size: 8px;
+    }
+
+    .contact p{
+        font-size: 6px;
+    }
+}
