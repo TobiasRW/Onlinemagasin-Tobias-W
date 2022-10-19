@@ -1,2 +1,2 @@
 # Onlinemagasin-Tobias-W
-Alle html, css, img og video filer til mit onlinemagsin
+Alle .html, .css, img, video, .txt og .xml filer til mit onlinemagsin
